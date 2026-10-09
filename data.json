@@ -1,0 +1,264 @@
+{
+  "source": "illustrative-fixtures",
+  "model": "Not sampled · demo dataset",
+  "generatedAt": "2026-10-09T08:00:00.000Z",
+  "notice": "Illustrative answers, not Grok output. Build-time API collection was blocked by DNS resolution in the sandbox.",
+  "probes": [
+    {
+      "id": "arithmetic",
+      "category": "Arithmetic",
+      "question": "What is 17 × 23? Reply with only the number.",
+      "rounds": [
+        {
+          "round": 1,
+          "timestamp": "2026-10-09T08:00:00.000Z",
+          "answer": "391"
+        },
+        {
+          "round": 2,
+          "timestamp": "2026-10-09T08:03:00.000Z",
+          "answer": "391"
+        },
+        {
+          "round": 3,
+          "timestamp": "2026-10-09T08:06:00.000Z",
+          "answer": "391"
+        },
+        {
+          "round": 4,
+          "timestamp": "2026-10-09T08:09:00.000Z",
+          "answer": "391"
+        },
+        {
+          "round": 5,
+          "timestamp": "2026-10-09T08:12:00.000Z",
+          "answer": "391"
+        }
+      ]
+    },
+    {
+      "id": "capital",
+      "category": "Fact recall",
+      "question": "What is the capital of Japan? Reply with only the city name.",
+      "rounds": [
+        {
+          "round": 1,
+          "timestamp": "2026-10-09T08:00:04.000Z",
+          "answer": "Tokyo"
+        },
+        {
+          "round": 2,
+          "timestamp": "2026-10-09T08:03:04.000Z",
+          "answer": "Tokyo"
+        },
+        {
+          "round": 3,
+          "timestamp": "2026-10-09T08:06:04.000Z",
+          "answer": "Tokyo"
+        },
+        {
+          "round": 4,
+          "timestamp": "2026-10-09T08:09:04.000Z",
+          "answer": "Tokyo"
+        },
+        {
+          "round": 5,
+          "timestamp": "2026-10-09T08:12:04.000Z",
+          "answer": "Tokyo"
+        }
+      ]
+    },
+    {
+      "id": "sort",
+      "category": "Structured output",
+      "question": "Sort these numbers ascending: 9, 2, 14, 5. Reply with a comma-separated list only.",
+      "rounds": [
+        {
+          "round": 1,
+          "timestamp": "2026-10-09T08:00:08.000Z",
+          "answer": "2, 5, 9, 14"
+        },
+        {
+          "round": 2,
+          "timestamp": "2026-10-09T08:03:08.000Z",
+          "answer": "2, 5, 9, 14"
+        },
+        {
+          "round": 3,
+          "timestamp": "2026-10-09T08:06:08.000Z",
+          "answer": "2,5,9,14"
+        },
+        {
+          "round": 4,
+          "timestamp": "2026-10-09T08:09:08.000Z",
+          "answer": "2, 5, 9, 14"
+        },
+        {
+          "round": 5,
+          "timestamp": "2026-10-09T08:12:08.000Z",
+          "answer": "2, 5, 9, 14"
+        }
+      ]
+    },
+    {
+      "id": "definition",
+      "category": "Explanation",
+      "question": "Explain what an API is in one sentence.",
+      "rounds": [
+        {
+          "round": 1,
+          "timestamp": "2026-10-09T08:00:12.000Z",
+          "answer": "An API is a set of rules that lets software applications communicate with each other."
+        },
+        {
+          "round": 2,
+          "timestamp": "2026-10-09T08:03:12.000Z",
+          "answer": "An API is a set of rules that lets software applications communicate with each other."
+        },
+        {
+          "round": 3,
+          "timestamp": "2026-10-09T08:06:12.000Z",
+          "answer": "An API is an interface that allows different software applications to exchange data and functionality."
+        },
+        {
+          "round": 4,
+          "timestamp": "2026-10-09T08:09:12.000Z",
+          "answer": "An API is a set of rules that allows software applications to communicate with each other."
+        },
+        {
+          "round": 5,
+          "timestamp": "2026-10-09T08:12:12.000Z",
+          "answer": "An API is a set of rules that allows software applications to communicate with each other."
+        }
+      ]
+    },
+    {
+      "id": "book",
+      "category": "Recommendation",
+      "question": "Recommend one novel for someone who enjoys thoughtful science fiction. Give the title and one sentence explaining why.",
+      "rounds": [
+        {
+          "round": 1,
+          "timestamp": "2026-10-09T08:00:16.000Z",
+          "answer": "The Left Hand of Darkness — Ursula K. Le Guin explores identity and belonging through an encounter with an unfamiliar society."
+        },
+        {
+          "round": 2,
+          "timestamp": "2026-10-09T08:03:16.000Z",
+          "answer": "Solaris — Stanisław Lem turns first contact into a thoughtful examination of memory and the limits of understanding."
+        },
+        {
+          "round": 3,
+          "timestamp": "2026-10-09T08:06:16.000Z",
+          "answer": "The Dispossessed — Ursula K. Le Guin explores the tension between individual freedom and social responsibility."
+        },
+        {
+          "round": 4,
+          "timestamp": "2026-10-09T08:09:16.000Z",
+          "answer": "The Left Hand of Darkness — Ursula K. Le Guin uses an alien world to question familiar assumptions about identity."
+        },
+        {
+          "round": 5,
+          "timestamp": "2026-10-09T08:12:16.000Z",
+          "answer": "Solaris — Stanisław Lem turns first contact into a thoughtful examination of memory and the limits of understanding."
+        }
+      ]
+    },
+    {
+      "id": "weekend",
+      "category": "Recommendation",
+      "question": "Suggest one low-cost creative activity for a rainy Sunday. Answer in one sentence.",
+      "rounds": [
+        {
+          "round": 1,
+          "timestamp": "2026-10-09T08:00:20.000Z",
+          "answer": "Make a collage from old magazines and packaging you already have at home."
+        },
+        {
+          "round": 2,
+          "timestamp": "2026-10-09T08:03:20.000Z",
+          "answer": "Try sketching the view from your window using a pen and scrap paper."
+        },
+        {
+          "round": 3,
+          "timestamp": "2026-10-09T08:06:20.000Z",
+          "answer": "Make a collage from old magazines and packaging you already have at home."
+        },
+        {
+          "round": 4,
+          "timestamp": "2026-10-09T08:09:20.000Z",
+          "answer": "Create a tiny handmade zine from a single sheet of paper."
+        },
+        {
+          "round": 5,
+          "timestamp": "2026-10-09T08:12:20.000Z",
+          "answer": "Create a tiny handmade zine from a single sheet of paper."
+        }
+      ]
+    },
+    {
+      "id": "name",
+      "category": "Creative writing",
+      "question": "Invent a short name for a neighborhood coffee shop. Reply with only the name.",
+      "rounds": [
+        {
+          "round": 1,
+          "timestamp": "2026-10-09T08:00:24.000Z",
+          "answer": "Corner & Cup"
+        },
+        {
+          "round": 2,
+          "timestamp": "2026-10-09T08:03:24.000Z",
+          "answer": "The Daily Perch"
+        },
+        {
+          "round": 3,
+          "timestamp": "2026-10-09T08:06:24.000Z",
+          "answer": "Moss & Mug"
+        },
+        {
+          "round": 4,
+          "timestamp": "2026-10-09T08:09:24.000Z",
+          "answer": "Corner & Cup"
+        },
+        {
+          "round": 5,
+          "timestamp": "2026-10-09T08:12:24.000Z",
+          "answer": "Little Ember"
+        }
+      ]
+    },
+    {
+      "id": "priority",
+      "category": "Reasoning",
+      "question": "A small team has one day to improve a slow website. What should they do first? Answer in one sentence.",
+      "rounds": [
+        {
+          "round": 1,
+          "timestamp": "2026-10-09T08:00:28.000Z",
+          "answer": "Measure real page performance to identify the biggest bottleneck before making changes."
+        },
+        {
+          "round": 2,
+          "timestamp": "2026-10-09T08:03:28.000Z",
+          "answer": "Profile the slowest page to identify its largest performance bottleneck."
+        },
+        {
+          "round": 3,
+          "timestamp": "2026-10-09T08:06:28.000Z",
+          "answer": "Measure real page performance to identify the biggest bottleneck before making changes."
+        },
+        {
+          "round": 4,
+          "timestamp": "2026-10-09T08:09:28.000Z",
+          "answer": "Measure real page performance to identify the biggest bottleneck before making changes."
+        },
+        {
+          "round": 5,
+          "timestamp": "2026-10-09T08:12:28.000Z",
+          "answer": "Use a performance profiler to find the largest bottleneck, then focus the day on fixing it."
+        }
+      ]
+    }
+  ]
+}
